@@ -7,15 +7,15 @@ class GuessingGame {
     }
 
     guess() {
-       return this.guessNumber = Math.round((this.max + this.min)/2)
+       return this.midium = Math.round((this.max + this.min)/2)
     }
 
     lower() {
-        this.max = this.guessNumber;
+        this.max = this.midium;
     }
 
     greater() {
-        this.min = this.guessNumber
+        this.min = this.midium
     }
 }
 
